@@ -1,0 +1,299 @@
+body {
+    background-color:  rgb(53, 52, 52);
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menudiv {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    
+}
+.menuicon{
+    margin-left: 5%;
+    cursor: pointer;
+    font-size: 18pt;
+    color: white;
+}
+.menuitemdiv{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(109,105,255,1) 0%, rgba(109,104,254,1) 0%, rgba(0,0,0,1) 1%, rgba(217,214,231,1) 100%, rgba(0,0,0,1) 100%);
+    overflow-x: hidden;
+   
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+.menuitemimgdiv {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    
+    background: rgb(53, 53, 54);
+    
+    overflow-x: hidden;
+
+    color: white;
+    font-weight: bold;
+    
+  
+}
+.closeicon{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 18pt;
+    
+    text-align: right;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.imgp{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.positiontext{
+    
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    text-align: center;
+   
+    
+}
+.essential{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.essential > span{
+    display: block;
+    margin-top: 40px;
+    font-size: 18pt;
+    color: black;
+}
+.positionaspecticon > a{
+    color: white;
+}
+.positionaspecticon{
+    position: absolute;
+    top: 218px;
+    left: 60px;
+}
+.link{
+    font-size: 8pt;
+}
+
+
+.menudivtext {
+    color: white;
+    margin-left: 30px;
+    font-size: 18pt;
+}
+
+.imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+    background-image: url('uiux.JPG');
+    background-color: aquamarine;
+   
+   
+}
+.leftarrowicon{
+    
+  
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+  
+}
+.rightarrowicon{
+    
+    
+ 
+    transition: 0.4s;
+    margin-right: 10px;
+    cursor: pointer;
+  
+    
+}
+.leftarrowicon:hover, .rightarrowicon:hover{
+    transform: scale(1.2);
+    background-color: rgb(162, 243, 125);
+}
+.textonimgdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute; 
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.3);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    
+}
+.textonimgdiv > span{
+    color: rgb(236, 231, 231);
+    font-weight: bold;
+}
+.textdiv{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.aboutmetxt{
+
+    font-size: 18pt;
+    display: inline-block;
+    text-align: center;
+    
+}
+.aboutmetxt:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-style: wavy;
+}
+.detailsdiv{
+    margin-left: 5%;
+    justify-content: center;
+    width: 90%;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 12pt;
+}
+.textdiv > p{
+    margin-left: 5%;
+    justify-content: center;
+    width: 90%;
+    text-align: left;
+   
+    font-size: 12pt;
+}
+.specialize, .feedbackdiv{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.feedbackdiv{
+ 
+    background: rgb(255,253,254);
+background: radial-gradient(circle, rgba(255,253,254,1) 0%, rgba(202,216,233,1) 100%);
+
+ border: 2px solid rgb(79, 66, 80);
+ box-shadow: 2px 2px 20px rgb(24, 22, 22);
+}
+.specialize {
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    border: 2px solid white;
+    box-shadow: 2px 2px 20px rgb(247, 246, 246);
+}
+
+.specialize > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px; 
+}
+.reactsticker{
+    border-radius: 50%;
+    
+    position: fixed;
+    bottom: 50px;
+    justify-content: center;
+    font-size: 20pt;
+    margin-left: 96.5%;
+    
+}
+
+.footer{
+    background-color:  rgb(0, 0, 0) ;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0px;
+    color: white;
+}
+.w{
+    width: 80%;
+}
+
+.h{
+    height: 300px;
+}
+
+@media only screen and (max-width: 767px){
+    .reactsticker{
+        margin-left: 90%;
+    }
+   .imgdiv{
+    height: 200px;
+    background-size: cover;
+   }
+   .textonimgdiv{
+    height: 40px;
+    font-size: small;
+   }
+   
+    .menudivtext{
+        font-size: small;
+    }
+    .menuicon{
+        font-size: small;
+    }
+    .specialize > img{
+        height: 30px;
+        width: 30px;
+    }
+    .menuitemimgdiv {
+        font-size: small;
+    }
+    .h{
+        height: 100px;
+        
+       
+       
+       
+    }
+    .w{
+        width: 100%;
+    }
+    .feedbackdiv{
+        font-size: small;
+    }
+    
+
+    
+}
+

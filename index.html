@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="card view">
+    <meta name="keywords" content="HTML,CSS,JS">
+    <meta name="author" content="Partho">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="portfolio icon.jpeg">
+    <link rel="stylesheet" href="portfolio responsive laptop.css">
+    <script src="https://kit.fontawesome.com/de4bb45f84.js" crossorigin="anonymous"></script>
+    <script src="porfolio.js"></script>
+
+    <style>
+       
+    </style>
+  
+</head>
+<body>
+    <div class="menudiv">
+
+        <span class="menuicon"  onclick="menuopen()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+
+        <div class="menuitemdiv">
+
+                <div class="menuitemimgdiv">
+                    <span class="closeicon" onclick="menuclose()"><i class="fa-solid fa-xmark"></i></span>
+                    
+                    
+                        <img class="imgp" src="parth.jpg" width="80px" height="80px">
+                        <div class="positiontext">
+                            <span class="d-block">Md. Kayum Uzzaman</span>
+                            <span class="d-block">partho</span>
+                            <p >Software Engineer</p>
+                        </div>
+                        
+                   
+                   
+                </div>
+
+                <div class="essential">
+                    <p>My Essential Link</p>
+
+                        <span><i class="fas fa-user-graduate"></i></span>
+                        <span><i class="fab fa-github"></i></span>
+                        <span><i class="fab fa-linkedin"></i></span>
+                        <span><i class="fa-solid fa-certificate"></i></span>
+                    
+                        <div class="positionaspecticon">
+                            <span class="d-block" style="margin-top: 2px;">Education & CV</span>
+                            <a class="link" href="https://drive.google.com/file/d/1lK1697H7hW2kzNVK5ieHv_83qYcPviTU/view?usp=sharing">Green University of Bangladesh<br> BSC in CSE (2018-2023)</a>
+                        
+                            <span style="margin-top: 6px;" class="d-block">Github </span>
+                            <a class="link" href="https://github.com/joylesspartho">github.com/partho</a>
+                            <span style="margin-top: 24px;" class="d-block">Linkdin</span>
+                            <a class="link" href="https://www.linkedin.com/in/partho20?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/partho20</a>
+                            <span style="margin-top: 26px;" class="d-block">Certification</span>
+                            <a class="link" href="https://drive.google.com/file/d/1kJHk3wF3OiNs1iEvzuh2PibgHrcojQ2j/view?usp=sharing">EC1</a>
+                            <a class="link" href="https://drive.google.com/file/d/1EeI2N3uFulCYc0MsYlqLoWGFv_yDVZAm/view?usp=sharing">EC2</a>
+                        </div>
+                     
+
+                    
+                    
+                    
+                    
+                </div>
+               
+
+               
+                
+        </div>
+
+        <span class="menudivtext">PARTHO PORTFOLIO</span>
+
+    </div>
+
+    <div class="imgdiv">
+
+        <span class="leftarrowicon" onclick="changeBack()">
+            <i class="fa-solid fa-angles-left"></i>
+        </span>
+        <p class="rightarrowicon" onclick="changeimg()">
+            <i class="fa-solid fa-angles-right"></i>
+        </p>
+
+        <div class="textonimgdiv">
+
+            <div id="output">
+
+            </div>
+               
+        </div>
+    </div>
+
+    <div class="textdiv">
+        <span class="aboutmetxt">ABOUT ME</span>
+        <p class="detailsdiv text-justify">
+            Hello, I'm a web & mobile apps developer based in Dhaka, Mirpur, Bangladesh. 
+            I specialize in creating efficient & innovative experiences that meet user needs and business goals.
+        </p>
+        <p class="text-justify">
+            I specialize in developing mobile applications using Flutter and websites using BS4 Bootstrap and Vue.js.
+             My work encompasses information systems, responsive UI/UX design, 
+             meticulous diagram creation for better understanding, integrated coding, 
+             and thorough testing in conjunction with the Software Development Life Cycle (SDLC).
+        </p>
+        
+        </p>
+    </div>
+
+    <div class="specialize">
+
+                <img class="distance" src="c.jpeg" >
+                <img class="distance" src="java.png" >
+                <img class="distance" src="html.png" >
+                <img class="distance" src="css.png" >
+                <img class="distance" src="bs4.jpg" >
+                <img class="distance" src="js.png" >
+                <img class="distance" src="php.png" >
+                <img class="distance" src="apache.png" >
+                <img class="distance" src="sql.png" >
+                <img class="distance" src="oracol.png" >
+                <img class="distance" src="xampp.jpeg">
+                <img class="distance" src="draw.io.png" >
+                <img class="distance" src="download.png" >
+                <img class="distance" src="code blocks.jpeg" >
+                <img class="distance" src="netbeans.jpeg" >
+                <img class="distance" src="npp.png" >
+                <img class="distance" src="vs code.png" >
+                <img class="distance" src="andriod studio.png" >
+                <img class="distance" src="flutter.jpg" >
+                <img class="distance" src="firebase.png" >
+                <img class="distance" src="selenium.png" >
+                <img class="distance" src="cisco packet tracer.jpeg" >
+               
+               
+
+    </div>
+
+    <span class="reactsticker" onclick="iconred()">
+        <i class="fas fa-heart" id="red" style="color: aliceblue;"></i>
+       
+    </span>
+
+    <div class="feedbackdiv">
+            <div class="container">
+                <div class="text-center">
+                    <span class="aboutmetxt" >Feedback</span>
+                </div>
+                
+            <hr width="100%" color="black">
+            </div>
+        
+            <div class="row">
+        
+              <div class="col-12 col-sm-7" >
+                <div class="container">
+
+                    <div class="h" style="background-image: url('feedback.webp');background-size: cover;background-repeat: no-repeat; background-position: center;">
+
+                    </div>
+
+                </div>
+               
+              
+                
+              </div>
+        
+              <div class="col-10 col-sm-5 mx-auto mx-auto ">
+                <form
+                action="https://formspree.io/f/mblgqalj"
+                  method="POST">
+                <div class="input-group">
+                  <label class="w">
+                    Your email:
+                    <input type="email" name="email" class="form-control ">
+                  </label>
+                </div>
+               
+                <div class="input-group">
+                  <label class="w">
+                    Your message:
+                    <textarea  name="message" class="form-control" rows="5"></textarea>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-outline-primary text-center">Send</button>
+                <span class="d-block mt-2">
+               
+              </form>
+              </div>
+        
+            </div>
+    
+    </div>
+    
+    <div class="footer">
+        Created by: Mr. Partho <br>
+        E-mail: joylesspartho@gmail.com
+    </div>
+</body>
+</html>
